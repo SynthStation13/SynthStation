@@ -212,11 +212,12 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_QUICKER_CARRY "quicker-carry" //We place people into a fireman carry especially quickly compared to quick_carry
 #define TRAIT_QUICK_BUILD "quick-build"
 #define TRAIT_UNINTELLIGIBLE_SPEECH "unintelligible-speech"
-#define TRAIT_UNSTABLE "unstable"
-#define TRAIT_OIL_FRIED "oil_fried"
-#define TRAIT_MEDICAL_HUD "med_hud"
-#define TRAIT_SECURITY_HUD "sec_hud"
-#define TRAIT_DIAGNOSTIC_HUD "diag_hud" //for something granting you a diagnostic hud
+#define TRAIT_UNSTABLE			"unstable"
+#define TRAIT_OIL_FRIED			"oil_fried"
+#define TRAIT_MEDICAL_HUD		"med_hud"
+#define TRAIT_SENSOR_HUD		"sensor_hud"
+#define TRAIT_SECURITY_HUD		"sec_hud"
+#define TRAIT_DIAGNOSTIC_HUD	"diag_hud" //for something granting you a diagnostic hud
 #define TRAIT_MEDIBOTCOMINGTHROUGH "medbot" //Is a medbot healing you
 #define TRAIT_PASSTABLE "passtable"
 #define TRAIT_NOFLASH "noflash" //Makes you immune to flashes
@@ -239,8 +240,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_NANITE_MONITORING "nanite_monitoring" //The mob's nanites are sending a monitoring signal visible on diag HUD
 #define TRAIT_MARTIAL_ARTS_IMMUNE "martial_arts_immune" // nobody can use martial arts on this mob
 #define TRAIT_DUFFEL_CURSED "duffel_cursed" //You've been cursed with a living duffelbag, and can't have more added
-/// Revenants draining you only get a very small benefit.
-#define TRAIT_WEAK_SOUL "weak_soul"
+#define TRAIT_FAST_CLIMBER 		"fast_climber" //Used by implants
+#define TRAIT_SHOVE_RESIST		"shove_resist" //Used by implants
 /// Prevents mob from riding mobs when buckled onto something
 #define TRAIT_CANT_RIDE "cant_ride"
 #define TRAIT_BLOODY_MESS "bloody_mess" //from heparin, makes open bleeding wounds rapidly spill more blood
